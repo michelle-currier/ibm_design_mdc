@@ -1,0 +1,44 @@
+
+$mdc-theme-primary: #0064ff;
+$mdc-theme-secondary: #001689;
+
+.custom-button {
+  background-color: #84565E;
+}
+body {
+    background-color: #323232;
+    color: #e0e0e0;
+  }
+
+// helpers
+.bg-blue {
+    background-color: $mdc-theme-primary;
+}
+.bg-navy {
+    background-color: $mdc-theme-secondary;
+}
+a {
+    color: $mdc-theme-secondary;
+}
+.text-gray {
+    color: #323232;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.p-1 {
+    padding: 1em;
+}
+.mt-1 {
+    margin-top: 1em !important;
+}
+.mt-2 {
+    margin-top: 2em !important;
+}
+  /* #0064ff #001689 
+  #c7c7c7 #959595  #323232 */

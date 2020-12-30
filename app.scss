@@ -1,0 +1,5 @@
+@import 'my-theme';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&display=swap');
+html {
+    --mdc-typography-font-family: 'IBM Plex Sans', sans-serif !important;
+}
